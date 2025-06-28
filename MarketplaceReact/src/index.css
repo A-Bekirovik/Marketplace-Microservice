@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --blue: 0, 123, 255;
+
+    --banner-text: 255, 255, 255;
+    --banner-button: 0, 86, 179;
+
+    --text: 0, 0, 0;
+    --price-text: 40, 167, 69;
+
+    --background: 255, 255, 255;
+
+    background: rgba(var(--background));
+}
+
+.dark {
+    --blue: 0, 123, 255;
+
+    --banner-text: 43, 43, 36;
+    --banner-button: 0, 86, 179;
+
+    --text: 255, 255, 255;
+    --price-text: 40, 167, 69;
+
+    --background: 43, 43, 36;
+
+    background: rgba(var(--background));
+}

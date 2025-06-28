@@ -1,0 +1,15 @@
+/* src/components/home/Home.css */
+.home {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.error-message {
+    color: red;
+}
